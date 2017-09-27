@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$('nav').toggleClass('open');
 		return false;
 	});
-	$('nav ul li a').click(function() {
+	$('#nav-wrapper ul li a').click(function() {
 		$('nav').toggleClass('open');
 		var target = $(this.hash);
 		$('html, body').animate({
