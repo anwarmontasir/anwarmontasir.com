@@ -84,7 +84,7 @@ header h1 {font: 300 2em/1 'Roboto Slab', serif; margin-bottom: 5px;}
 
 .clip {clip: rect(1px, 1px, 1px, 1px); position: absolute !important; height: 1px; width: 1px; overflow: hidden;}
 
-section {
+section, footer {
     max-width: 800px;
     margin: 5em auto;
     padding: 0 1em;
@@ -100,6 +100,12 @@ section h3 {font-size: 1.3em; font-weight: 400;}
 .h3-small {font-size: 1rem;}
 section ul {margin: 0 0 3em 2em;}
 section ul li {margin-bottom: .5em;}
+
+footer p {
+    margin-top: 10em;
+    border-top: 1px solid #44474a;
+    font-size: .8em;
+}
 
 @media screen and (max-width: 640px) {
     header {padding: 4em 1em;}
