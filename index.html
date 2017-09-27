@@ -1,17 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Anwar Montasir | Web Development + Design + Instruction</title>
-        <link href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400|Roboto+Slab:400,300" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/animations.css">
-        <link rel="icon" type="image/png" href="images/favicon.png">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anwar Montasir | Web Development + Design + Instruction</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400|Roboto+Slab:400,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
 <body>
-    
+
+    <aside>
+        <nav>
+            <div id="nav-wrapper">
+                <a id="open-menu" href="#"><span class="fa fa-bars fa-2x"></span><span class="clip">Menu</span></a>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+                <a id="close-menu" href="#"><span class="fa fa-close fa-2x"></span><span class="clip">Close</span></a>
+            </div>
+        </nav>
+    </aside>
+
+    <header id="profile">
+        <div class="slideDown header1">
+            <img src="images/anwar-montasir-logo.png" alt="Anwar Montasir logo" class="header-img" id="logo">
+            <img src="images/anwar-montasir-profile.jpg" alt="Anwar Montasir profile image" class="header-img" id="circle">
+
+            <h1>Anwar Montasir</h1>
+            <p id="tagline">Web Design + Development + Instruction</p>
+
+        </div>
+        <div class="expandUp header2">
+            <p id="tag2">I'm a full stack JavaScript developer with UI/UX and higher education experience, seeking new opportunities in
+                Portland, OR.
+            </p>
+        </div>
+        <div class="pullUp header3">
+            <nav id="social">
+                <ul>
+                    <li><a href="http://github.com/anwarmontasir" target="_blank"><span class="fa fa-github fa-3x"></span><span class="clip">Github</span></a></li>
+                    <li><a href="http://linkd.in/1miibh6" target="_blank"><span class="fa fa-linkedin fa-3x"></span><span class="clip">LinkedIn</span></a></li>
+                    <li><a href="mailto:anwarmontasir@gmail.com"><span class="fa fa-envelope-square fa-3x"></span><span class="clip">Email</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>The Art Institute of New York City, <span class="location">New York, NY</span></h3>
+            <p>Senior Lead Instructor, January 2008–July 2016</p>
+            <ul>
+                <li>Taught a variety of courses in the Web Design/Interactive Media department, including Web Portfolio, Interface
+                    Design, JavaScript, HTML5/CSS, and WordPress.</li>
+                <li>Introduced emerging technologies into the classroom and department: HTML5, CSS3, jQuery, WordPress, MAMP,
+                    mobile web development, social network APIs.</li>
+                <li>Advised students through the process of obtaining and succeeding at web industry internships as departmental
+                    internship coordinator.</li>
+                <li>Led a committee in restructuring and rewriting curriculum to place greater emphasis on design fundamentals
+                    (typography, color theory, grid) and to lessen amount of Flash content in favor of HTML5/CSS/JavaScript.</li>
+            </ul>
+
+            <h3>Simple Circle LLC, <span class="location">New York, NY</span></h3>
+            <p>Web Developer, September 2005–Feb 2010</p>
+            <ul>
+                <li>Developed innovative, database-driven websites for clients such as Mr. Wonderful, Creativity Magazine, PromoLift,
+                    Studio 5 in 1, and Gary Baseman Illustration.</li>
+                <li>Maintained Sitecontrol, a custom-built PHP/MySQL-driven content management system that allowed website owners
+                    to add, remove, and update website content.</li>
+            </ul>
+
+            <h3>Katharine Gibbs School, <span class="location">New York, NY</span></h3>
+            <p>Digital Media Professor, October 2002–Oct 2007</p>
+            <ul>
+                <li>Instructed a variety of web design courses and established core curriculum in the Digital Media, Visual Communications,
+                    and Digital Film departments.</li>
+                <li>Evaluated student work as active member of portfolio review committees.</li>
+            </ul>
+
+            <h3>Bozell Inc., <span class="location">New York, NY</span></h3>
+            <p>Web Designer/Developer, Aug 2001–Jun 2002</p>
+            <ul>
+                <li>Co-founded the agency’s interactive department.</li>
+                <li>Established intranet to streamline interactive department workflow.</li>
+                <li>Created Flash banners and HTML landing pages for online broker Datek.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Alchemy Code Lab, <span class="location">Portland, OR</span></h3>
+            <p>Certificate in Full Stack JavaScript, September 2017</p>
+            <h3>Vermont College, <span class="location">Montpelier, VT</span></h3>
+            <p>MFA Fine Art, August 2006</p>
+            <h3>University of Arizona, <span class="location">Tucson, AZ</span></h3>
+            <p>BFA Studio Art, May 1999</p>
+        </section>
+    </main>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.2/retina.min.js"></script>
+    <script src="js/nav.js"></script>
 </body>
+
 </html>
