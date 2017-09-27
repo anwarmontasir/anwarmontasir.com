@@ -97,9 +97,10 @@ section h2 {
     padding-top: 1em;
 }
 section h3 {font-size: 1.3em; font-weight: 400;}
-.location {font-size: 1rem;}
+.h3-small {font-size: 1rem;}
 section ul {margin: 0 0 3em 2em;}
 section ul li {margin-bottom: .5em;}
+#projects ul {margin-top: 1em;}
 
 @media screen and (max-width: 640px) {
     header {padding: 4em 1em;}
