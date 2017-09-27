@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#open-menu, #close-menu').click(function() {
+	$('#nav-wrapper #open-menu, #nav-wrapper g#close-menu').click(function() {
 		$('nav').toggleClass('open');
 		return false;
 	});
