@@ -102,9 +102,9 @@ section ul {margin: 0 0 3em 2em;}
 section ul li {margin-bottom: .5em;}
 .skills-ul {
     column-count: 2; 
-    margin: 1em 0 2em;
-    column-fill: balance;
+    margin: 1em 0;
 }
+.break {break-before: column;}
 
 footer p {
     margin-top: 10em;
