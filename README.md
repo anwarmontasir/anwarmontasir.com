@@ -1,3 +1,3 @@
 # anwarmontasir.com
 
-Simple HTML5 and CSS resume website for (https://github.com/anwarmontasir)[Anwar Montasir]
+Simple HTML5 and CSS resume website for [Anwar Montasir](https://github.com/anwarmontasir)
